@@ -68,8 +68,7 @@ ul li {
 .nav.work-active .desk-ul li a {
   color: #2b292f;
 }
-
-ul li a:hover {
+.nav .desk-ul li a:hover {
   color: #fff;
 }
 
@@ -338,7 +337,7 @@ section{
 }
 
 .skill-img i{
-  font-size: 5rem;
+  font-size: 4rem;
   color: #ecebeb;
 }
 
@@ -349,6 +348,7 @@ section{
 /* work */
 #work{
   width: 100%;
+  height: auto;
 }
 .work-container{
   width: 85%;
@@ -356,7 +356,8 @@ section{
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+  margin: 7rem auto;
 }
 
 .work-header{
@@ -373,7 +374,7 @@ section{
   color: #c97b15;
 }
 
-.work-btn{
+/* .work-btn{
   width: 15%;
   display: flex;
   align-items: center;
@@ -398,7 +399,7 @@ section{
 
 .work-btn button:hover{
   color: #2b292f;
-}
+} */
 
 .work-list{
   width: 100%;
@@ -469,6 +470,7 @@ section{
   height: 100%;
   object-fit: cover;
   border-radius: 0.2rem;
+  border: 1px solid #2b292f83;
 }
 
 .work-txt{
@@ -483,6 +485,16 @@ section{
 .work-txt p{
   font-size: 0.8rem;
   line-height: 1.3rem;
+}
+.work-txt button{
+  width: 100%;
+  border: 0.1px solid;
+  border-radius: 0;
+  color: #2b292f;
+  font-size: 0.8rem;
+}
+.work-txt button:active{
+  background-color: #a3a3a3;
 }
 
 /* contact */

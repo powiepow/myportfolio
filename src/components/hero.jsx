@@ -2,6 +2,7 @@ import React from 'react';
 import Profile from"../assets/profile.png";
 import AboutMe from"../assets/aboutme.png";
 import Work from"../assets/work.jpg";
+import Work1 from"../assets/work1.jpg";
 import Contact from"../assets/contact-img.png";
 
 const Hero = () => {
@@ -59,7 +60,7 @@ const Hero = () => {
     </section>
 
     {/* skill */}
-    <section id='skill'>
+    {/* <section id='skill'>
       <div className='txt-title'>
         <h1>MY <span>SKILLS</span></h1>
       </div>
@@ -143,36 +144,30 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     {/* work */}
-    <section id='work'>
+    {/* <section id='work'>
       <div className='work-container'>
 
         <div className='work-header'>
           <div className='header-txt'>
             <h2>Latest <span>works.</span></h2>
           </div>
-          {/* <div className='work-btn'>
-            <button className='btn-prev'>Prev</button>
-            <button className='btn-nxt'>Next</button>
-          </div> */}
         </div>
 
         <div className='work-list'>
 
           <div className='work-1'>
             <div className='work-img'>
-              <img src={Work} alt="" />
+              <img src={Work1} alt="" />
             </div>
-            {/* <div className="preview-overlay">
-              <i className="fas fa-eye"></i>
-            </div> */}
             <div className='work-txt'>
-                <h2 className='title'>WEBCRAFT</h2>
+                <h2 className='title'>QUIZ</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, consequatur voluptas amet maiores dolore quam accusamus est quis ipsa unde assumenda tempore eos, asperiores id esse, minus commodi eum nam?
                   
                 </p>
+                <button>Preview</button>
             </div>
           </div>
 
@@ -185,6 +180,7 @@ const Hero = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, consequatur voluptas amet maiores dolore quam accusamus est quis ipsa unde assumenda tempore eos, asperiores id esse, minus commodi eum nam?
                   
                 </p>
+                <button>Preview</button>
             </div>
           </div>
 
@@ -197,15 +193,16 @@ const Hero = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, consequatur voluptas amet maiores dolore quam accusamus est quis ipsa unde assumenda tempore eos, asperiores id esse, minus commodi eum nam?
                   
                 </p>
+                <button>Preview</button>
             </div>
           </div>
         </div>
 
       </div>
-    </section>
+    </section> */}
 
     {/* contact */}
-    <section id='contact'>
+    {/* <section id='contact'>
       <div className='contact-container'>
 
         <div className='con-left'>
@@ -250,7 +247,7 @@ const Hero = () => {
         </div>  
 
       </div>
-    </section>
+    </section> */}
     </>
   );
 };

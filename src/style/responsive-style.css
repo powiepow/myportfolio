@@ -1,4 +1,4 @@
-@media (max-width: 768px) and (max-width: 1024px) {
+@media (min-width: 360px) and (max-width: 768px) {
 
   .nav-img {
     width: 5rem; 
@@ -39,7 +39,7 @@
     top: 0;
     right: -100%;
     width: 250px;
-    height: 100vh;
+    height: 100%;
     background-color: #d9d9d9;
     border: 1px solid #2b292f;
     display: flex;
@@ -48,7 +48,6 @@
     justify-content: space-between;
     transition: right 0.3s ease-in-out;
     z-index: 1000;
-    opacity: 0.9;
   }
 
   .mobile-menu.open {
@@ -106,7 +105,7 @@
   }
 
   .home-name{
-    font-size: 1rem;
+    font-size: 0.8rem;
     align-items: center;
     text-align: center;
     justify-content: flex-end;
@@ -116,7 +115,6 @@
 
   .home-name .nickname {
     color: #d8871a;
-    margin-right: 1rem;
   }
 
   .home-name p{
@@ -223,16 +221,18 @@
 .work-1{
   width: 90%;
   padding: 0.5rem;
+  
 }
 .work-img{
   height: 10rem;
 }
 .work-txt{
   font-size: 0.8rem;
-  height: 2rem;
+  height: 6rem;
+  
 }
 .work-txt .title{
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 /* contact */
