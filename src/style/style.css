@@ -134,8 +134,7 @@ section{
 .home-name p{
   font-size: 1.2rem;
   font-weight: lighter;
-  position: absolute;
-  margin-top: 10em;
+  margin-top: -1rem;
 }
 
 .contact-btn {
