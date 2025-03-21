@@ -105,7 +105,7 @@
   }
 
   .home-name{
-    font-size: 0.8rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     align-items: center;
     text-align: center;
     justify-content: flex-end;
@@ -120,7 +120,6 @@
   .home-name p{
     font-size: 1rem;
     font-weight: lighter;
-    position: absolute;
   }
 
   .home-profile{
@@ -138,13 +137,13 @@
   /* about */
   #about{
     display: flex;
-    flex-direction: row;
   }
 
   .about-container{
-    height: 70%;
+    height: auto;
     width: 70%;
     margin-top: 13rem;
+    border: 1px solid red;
     justify-content: center;
   }
   
@@ -152,13 +151,18 @@
     width: 100%;
     font-size: 0.8rem;
     align-items: center;
+    text-align: center;
  }
 
  .about-txt h2{
   font-size: 0.9rem;
+  text-align: center;
  }
  .about-txt h1{
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+ }
+ .about-txt p{
+  text-align: justify;
  }
 
  /* skill */
