@@ -103,22 +103,25 @@
     gap: 0rem;
     align-items: center;
   }
-
   .home-name{
     font-size: clamp(1rem, 2vw, 1.5rem);
     align-items: center;
     text-align: center;
     justify-content: flex-end;
-    height: 22rem;
-    padding: 0;
+    padding-top: 10rem;
+    gap: 0;
+  }
+
+  .home-name p{
+    font-size: 1.3rem;
   }
 
   .home-name .nickname {
     color: #d8871a;
   }
 
-  .home-name p{
-    font-size: 1rem;
+  .home-name .fd{
+    font-size: 1.2rem;
     font-weight: lighter;
   }
 
@@ -143,8 +146,8 @@
     height: auto;
     width: 70%;
     margin-top: 13rem;
-    border: 1px solid red;
     justify-content: center;
+    padding: 0 1rem;
   }
   
   .about-txt{
