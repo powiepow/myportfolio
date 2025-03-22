@@ -11,8 +11,9 @@ const Hero = () => {
     <>
     <section id='home'>
       <div className='home-name'>
-          <h1>Hi <span className="wave-hand">👋</span>,<br /><span>I'm</span><span className='nickname'>Pawpatrol</span></h1>
-          <p>Frontend Developer</p>
+          <p>Hey there <span className="wave-hand">👋</span></p>
+          <h1>I'm<span className='nickname'>Pawpatrol</span></h1>
+          <p className='fd'>Frontend Developer</p>
         <div className='contact-btn'>
           <a href="#contact"><button>Contact Me</button></a>
         </div>
