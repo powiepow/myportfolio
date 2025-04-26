@@ -1,19 +1,26 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./style/style.css";
-import "./style/responsive-style.css";
-import Nav from "./components/nav";
-import Hero from "./components/hero";
-import "../src/App";
+import React from 'react';
+import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
+import About from './components/About.jsx';
+// import Work from './components/Work.jsx';
+// import Experience from './components/Experience.jsx';
+// import Certificates from './components/Certificates.jsx';
+// import Blog from './components/Blog.jsx';
+// import Contact from './components/Contact.jsx';
+// import Footer from './components/Footer.jsx';
 
-function App() {
-  return (
-    <Router>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-      </Routes>
-    </Router>
-  );
-}
+const App = () => (
+  <>
+    <Navbar />
+    <Home />
+    <About />
+    {/* <Work />
+    <Experience />
+    <Certificates />
+    <Blog />
+    <Contact />
+    <Footer /> */}
+  </>
+);
 
 export default App;
