@@ -2,6 +2,7 @@ import React from 'react';
 import projec1 from '../assets/project1.jpg';
 import projec2 from '../assets/project2.jpg';
 import projec3 from '../assets/project3.jpg';
+import projec4 from '../assets/project4.jpg';
 
 const Work = () => (
   <section id="work">
@@ -33,6 +34,20 @@ const Work = () => (
           </div>
           <img
             src={projec2}
+            className="project-img"
+          />
+        </div>
+        <div className="project-card">
+          <div className="project-info">
+            <h3>PHYTOSENSE: Crop Disease Diagnostic Platform</h3>
+            <p>Smart crop health monitoring system that uses CNN and TensorFlow Js to detect crop diseases through real-time image analysis. Users can scan or upload leaf images to receive instant diagnoses, including disease names, causes, treatments, prevention tips, and confidence levels. </p>
+            <div className="project-links">
+              <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:4e291402-6f9b-4b16-8a05-4f909ca5c28a" target="_blank" rel="noopener noreferrer" className="project-link" id='view-project'> <i className="fa-solid fa-up-right-from-square"></i>Preview</a>
+              <a href="https://github.com/powiepow/Phytosense.git" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-github"></i>Github</a>
+            </div>
+          </div>
+          <img
+            src={projec4}
             className="project-img"
           />
         </div>
