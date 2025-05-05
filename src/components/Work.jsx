@@ -1,52 +1,52 @@
 import React from 'react';
+import projec1 from '../assets/project1.jpg';
+import projec2 from '../assets/project2.jpg';
+import projec3 from '../assets/project3.jpg';
 
 const Work = () => (
   <section id="work">
     <div className="container">
-      <h2><span className="underline-first-two">My</span> Projects</h2>
+      <h2><span className="underline-first-two">RE</span><span>CENT</span> PROJECTS</h2>
       <div className="work-grid">
         <div className="project-card">
           <div className="project-info">
-            <h3>Pokédex Web App</h3>
-            <p>Interactive app using PokéAPI, built with HTML, CSS, and JavaScript for Pokémon data and battle simulations.</p>
+            <h3>To-DO Hub</h3>
+            <p>A simple and clean task manager that lets users add, track, and organize their daily to-dos efficiently.</p>
             <div className="project-links">
-              <a href="https://padwatingkasan.github.io/pokedex-app" target="_blank" rel="noopener noreferrer" className="project-link">Preview Project</a>
-              <a href="https://github.com/PadwaTingkasan/pokedex-app" target="_blank" rel="noopener noreferrer" className="project-link">Git Repository</a>
+              <a href="https://todo-paw.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-link" id='view-project'> <i className="fa-solid fa-up-right-from-square"></i>Live demo</a>
+              <a href="https://github.com/powiepow/Todo.git" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-github"></i>Github</a>
             </div>
           </div>
           <img
-            src="/assets/pokedex.jpg"
-            alt="Pokédex App"
+            src={projec1}
             className="project-img"
           />
         </div>
         <div className="project-card">
           <div className="project-info">
-            <h3>Tribute Page</h3>
-            <p>Minimalist tribute page for Dr. Norman Borlaug, designed with HTML and CSS.</p>
+            <h3>PokéAPI</h3>
+            <p>A dynamic Pokédex app that lets users build a team of up to six Pokémon, simulate battles, mark favorites, and view battle history—all powered by the PokéAPI.</p>
             <div className="project-links">
-              <a href="https://padwatingkasan.github.io/tribute-page" target="_blank" rel="noopener noreferrer" className="project-link">Preview Project</a>
-              <a href="https://github.com/PadwaTingkasan/tribute-page" target="_blank" rel="noopener noreferrer" className="project-link">Git Repository</a>
+              <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:425a4a2b-6de4-436d-8a6c-cbd26f121786" target="_blank" rel="noopener noreferrer" className="project-link" id='view-project'> <i className="fa-solid fa-up-right-from-square"></i>Preview</a>
+              <a href="https://github.com/powiepow/pokeapi.git" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-github"></i>Github</a>
             </div>
           </div>
           <img
-            src="/assets/tribute.jpg"
-            alt="Tribute Page"
+            src={projec2}
             className="project-img"
           />
         </div>
         <div className="project-card">
           <div className="project-info">
-            <h3>E-Commerce Landing Page</h3>
-            <p>Responsive e-commerce landing page with CSS animations and clean design.</p>
+            <h3>Medical Equipment Tracker</h3>
+            <p>Medequip is a PHP-based system for the College of Medicine that manages equipment inventory, tracks usage and maintenance, and ensures organized asset handling.</p>
             <div className="project-links">
-              <a href="https://padwatingkasan.github.io/ecommerce-landing" target="_blank" rel="noopener noreferrer" className="project-link">Preview Project</a>
-              <a href="https://github.com/PadwaTingkasan/ecommerce-landing" target="_blank" rel="noopener noreferrer" className="project-link">Git Repository</a>
+              <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:6598820f-391b-47bd-bddb-37dfb03f226f" target="_blank" rel="noopener noreferrer" className="project-link" id='view-project'> <i className="fa-solid fa-up-right-from-square"></i>Preview</a>
+              <a href="https://github.com/powiepow/WebCraft-main.git" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-github"></i>Github</a>
             </div>
           </div>
           <img
-            src="/assets/ecommerce.jpg"
-            alt="E-Commerce Landing Page"
+            src={projec3}
             className="project-img"
           />
         </div>

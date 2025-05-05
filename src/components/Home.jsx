@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../assets/Me.png';
+import Profile from '../assets/Profile.jpg';
 
 const Home = () => (
   <section id="home">
