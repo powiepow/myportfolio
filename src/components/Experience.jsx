@@ -7,12 +7,23 @@ const Experience = () => (
       <div className="experience-grid">
         <div className="experience-card">
           <div className="experience-details">
-            <h3>WEBCRAFT</h3>
+            <h3>PHYTOSENSE: Crop Disease Diagnostic Platform</h3>
             <div className="role">Project Manager</div>
-            <p>Creating an inventory system for the College of Medicine and our client Mr. Torres</p>
+            <p>Developed a PHP-based crop disease diagnostic platform, Phytosense, designed for crop disease detection through image analysis, enabling real-time diagnosis, treatment recommendations, and prevention tips using CNN, OpenCV, and TensorFlow.
+            </p>
           </div>
           <div className="experience-duration">
-            Jun 2022 - Dec 2023
+            June 2024 - Dec 2024
+          </div>
+        </div>
+        <div className="experience-card">
+          <div className="experience-details">
+            <h3>WEBCRAFT</h3>
+            <div className="role">Project Manager</div>
+            <p>Developed PHP-based inventory management system tailored for the College of Medicine, designed to streamline equipment tracking, usage monitoring, and maintenance scheduling.</p>
+          </div>
+          <div className="experience-duration">
+            June 2022 - Dec 2023
           </div>
         </div>
         <div className="experience-card">
